@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(45deg, #43cea2, #315e8b) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(112, 15, 15, 0.5);
+    display: block;
+    line-height: 1.6;
+}h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0 0 3px white;
+}
+button{
+    background-color: #176bc5;
+    color: white;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family:serif ;
+    font-size:25px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+textarea{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 10px;
+    display:block;
+    width: 90%;
+}

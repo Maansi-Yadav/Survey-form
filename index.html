@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey form</title>
+</head>
+<body>
+    <h1>TECH-CODE SURVEY FORM</h1>
+   <form action="backend.php">
+    <div class="Form-control">
+        <label for="name" id="label-name">
+            Name 
+        </label>
+        <input type="text"
+            id="name"
+            placeholder="Enter your name" />
+    </div><br>
+    <div class="Form-control">
+        <label for="Email" id="label-email">
+            Email
+        </label>
+        <input type="email" id="mail" placeholder="enter your mail">
+
+    </div><br>
+    <div class="Form-control">
+        <label for="number" id="label-number">
+            Phone-no.
+        </label>
+        <input type="tel" id="phno" placeholder="enter your mobile no.">
+
+    </div><br>
+    <div class="Form-control">
+        <label for="age" id="label-age">
+            Age
+        </label>
+        <input type="text" id="age" placeholder="enter your age">
+
+    </div><br>
+    <div class="Form-control">
+        <label>Male<input type="radio" name="gender" value="male" /></label>
+    <label>Female<input type="radio" name="gender" value="female" /></label>
+    <label>Others<input type="radio" name="gender" value="other" /></label>
+ </div><BR>
+ <div class="form-control">
+    <label for="type" id="label-type">
+        Your Profession
+    </label>
+    <select name="role" id="role">
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional"> Professional</option>
+        <option value="other">Other</option>
+    </select>
+</div><BR>
+<div class="form-control">
+    <label>Most demanding topics for projects? </label><br>
+    <label for="typ1">
+        <input type="checkbox"
+            name="inp">Front-end Development Projects</input></label><br>
+    <label for="typ2">
+        <input type="radio"
+            name="inp">HTML</input></label><br>
+    <label for="typ3">
+        <input type="radio"
+            name="inp">CSS</input></label><br>
+    <label for="typ4">
+        <input type="radio"
+            name="inp">JavaScript</input></label><br>
+    <label for="typ5">
+        <input type="checkbox"
+            name="inp">Back-end Development Projects</input></label><br>
+    <label for="typ6">
+        <input type="radio"
+            name="inp">NodeJs</input></label><br>
+    <label for="typ7">
+        <input type="radio"
+            name="inp">Php</input></label><br>
+    <label for="typ8">
+        <input type="radio"
+            name="inp">MySQL</input></label><br>
+    <label for="typ9">
+        <input type="radio"
+            name="inp">MongoDB</input></label><br>
+            <label for="typ10">
+                <input type="checkbox"
+                    name="inp">DSA projects</input></label>
+                    <div class="form-control"><label>
+                            Would you recommend TECH CODE
+                            to your friend?</label><br>
+                            <label>Yes<input type="radio" name="rec" value="y" /></label>
+                            <label>No<input type="radio" name="rec" value="n" /></label>
+                            <label>Maybe<input type="radio" name="rec" value="m" /></label>
+                         </div><BR>
+                        
+    <div class="form-control">
+        <label for="comment">
+            Any comments or suggestions
+        </label>
+        <textarea name="sugg"  placeholder="Enter your comment here">
+        </textarea>
+    </div><br>
+    <button type="submit" value="submit">
+        Submit
+    </button>
+   
+    
+</div>
+
+
+   </form> 
+</body>
+</html>
